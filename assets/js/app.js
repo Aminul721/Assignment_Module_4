@@ -34,7 +34,7 @@ products.map((item) => {
     <span class="item-num">${item.id}</span>
     <span class="item-name">${item.title.slice(0, 20)}</span>
     <span class="product-img max-w-[150px] max-h-[200px]">
-    <img class="max-h-[200px]" src="${item.image}" alt="${item.description}" />
+    <img class="max-h-[200px]" src="${item.images}" alt="${item.description}" />
     </span>
             <span class="product-price">$${item.price}</span>
             <button
